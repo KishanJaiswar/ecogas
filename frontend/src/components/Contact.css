@@ -1,0 +1,84 @@
+.contact {
+    /* margin-left: auto; */
+    max-width: 35%;
+    padding: 20px;
+    background: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact input,
+.contact select {
+    width: -webkit-fill-available;
+}
+
+.custom-form {
+    max-width: 430px;
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+    background-color: black;
+    /* White background */
+}
+
+.custom-form p {
+    margin-top: -10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.custom-form input,
+.custom-form select,
+.custom-form option {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* .custom-form select option {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+} */
+
+.custom-form select option:hover {
+    background-color: red;
+}
+
+.custom-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f78900;
+    /* Base color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color: #e67600;
+    /* Slightly darker shade for hover effect */
+}
+
+.message{
+    border: 1px solid;
+    height: max-content;
+    background-color: black;
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .custom-form {
+        max-width: 100%;
+    }
+}

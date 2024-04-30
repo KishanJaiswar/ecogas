@@ -1,0 +1,20 @@
+.recent-projects-section {
+    background-color: white;
+    padding: 45px 30px;
+    text-align: center;
+}
+
+.recent-projects-section h2 {
+    color: black;
+}
+
+.recent-projects-section p {
+    padding-bottom: 20px;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .recent-projects-section {
+        padding: 40px 20px;
+    }
+}
